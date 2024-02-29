@@ -79,3 +79,38 @@ console.log(typeof NaN)
      let StringNumber = String(SomeNumber)
      console.log(StringNumber)
      console.log(typeof StringNumber)
+
+
+
+     //  ***************************************** Operations ******************************************
+
+     let value = 3
+
+     let negValue = -value
+     console.log(negValue);
+
+     // console.log(2+2)
+     // console.log(2-2)
+     // console.log(2*2)
+     // console.log(2**3)    // 2 ki power 3(Power Operations)
+     // console.log(2/2)
+     // console.log(2%2)     // remainder
+
+     let str1 = "Hello"
+     let str2 = " Mohit"
+
+     let str3 = str1 + str2
+     console.log(str3)
+
+     console.log("1" + 2);
+     console.log(1 + "2");
+     console.log("1" + 2 + 2);
+     console.log(1 + 2 + "2");   // Move from left to right
+     console.log(+true);
+
+     let gameCounter1 = 100;
+     gameCounter1++;
+     console.log(gameCounter1);
+     let gameCounter2 = 100;
+     ++gameCounter2
+     console.log(gameCounter2);
