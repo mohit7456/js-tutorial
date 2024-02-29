@@ -31,21 +31,21 @@
 
 // Declaring basic array
 
-const heros = ["shaktiman" , "naagraj" , "doga"];
+// const heros = ["shaktiman" , "naagraj" , "doga"];
 
 
 // Declaring object(key=value pair)
 
-let myObj = {
-    name: "Mohit",
-    age: 27
-}
+// let myObj = {
+//     name: "Mohit",
+//     age: 27
+// }
 
 // Declaring funstions
 
-const myFunction = function(){
-    console.log("Hello world");
-}
+// const myFunction = function(){
+//     console.log("Hello world");
+// }
 
 // Return type of variables in JavaScript
 // 1) Primitive Datatypes
@@ -61,3 +61,28 @@ const myFunction = function(){
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+// ****************************************************************************************************
+
+//     (change in copy)   Stack => (Primitive) ,(change in original position) Heap => (Non - Premetive)
+
+// Primitive(Only copy is paassed) Using Stack
+let myYoutubeChannel = "MohitGaming"
+let anotherYoutubeChannel = myYoutubeChannel
+anotherYoutubeChannel = "TarunGaming"
+
+console.log(anotherYoutubeChannel);  // ....=> TarunGaming
+console.log(myYoutubeChannel);       // ....=> MohitGaming
+
+// Non-Primitive(Reference is passed) Using Heap
+let userOne = {
+    email: "mohit@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "mohit@Yahoo.com"
+
+console.log(userOne.email);  // ....it take reference so email is yahoo.com
+console.log(userTwo.email);  // same here point same memory location so Yahoo.com
