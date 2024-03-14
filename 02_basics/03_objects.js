@@ -23,7 +23,7 @@ console.log(JsUser[mySym]);
 
 // Changing their values
 JsUser.email = "mohit@gmaul.com"
-// Object.freeze(JsUser)             // Now we cannot update JuUser
+// Object.freeze(JsUser)             // Now we cannot update JsUser
 JsUser.email = "mohit@microsoft.com"
 
 JsUser.greeting = function(){
