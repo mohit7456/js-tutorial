@@ -109,4 +109,4 @@ function returnSecondValue(anyArray){
 }
 
 // console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([100, 200, 300, 400, 500]));
+//console.log(returnSecondValue([100, 200, 300, 400, 500]));
